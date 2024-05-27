@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNAR BATTLE</title>
+    <!-- Estilos Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icono -->
+    <link rel="icon" href="assets/851999.png">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <img src="assets/espacessss.png" alt="Imagen del Título" class="img-fluid">
+    </header>
+    <main class="container my-4">
+        <div class="row">
+            <div class="col text-center">
+                <canvas id="gameCanvas" width="800" height="600" class="border"></canvas>
+                <p id="instructions">Usa el mouse para mover la nave y esquivar los asteroides, usa la barra espaciadora para disparar. ¡Buena suerte!</p>
+                <p id="instructions">Pulsa CTRL + R para volver a empezar!!</p>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-secondary text-white text-center py-3">
+        <p>by: daddyleo</p>
+    </footer>
+
+    <!-- Elemento de audio para el sonido del disparo -->
+    <audio id="shootSound" src="Y2meta.app - Sonido Disparo (128 kbps).mp3"></audio>
+
+    <!-- Elemento de audio para la canción de fondo -->
+    <audio id="backgroundMusic" src="fondo.mp3" autoplay loop></audio>
+
+    <!-- Script del juego -->
+    <script src="game.js"></script>
+</body>
+</html>

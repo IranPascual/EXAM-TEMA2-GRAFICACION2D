@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fondo negro para el espacio */
+}
+
+#gameCanvas {
+    background: url('assets/espacio.jpg') no-repeat center center;
+    background-size: cover;
+    cursor: none; /* Oculta el cursor por defecto */
+}
+
+#instructions {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: white;
+}
+
+header {
+    background-color: #000;
+}
